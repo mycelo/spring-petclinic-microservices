@@ -1,0 +1,589 @@
+{
+    "origin": "remote",
+    "type": "request",
+    "correlation": "c24515766394dddb",
+    "protocol": "HTTP/1.1",
+    "remote": "192.168.0.68",
+    "method": "GET",
+    "uri": "http://192.168.0.68:45897/vets",
+    "headers": {
+        "accept": [
+            "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        ],
+        "accept-encoding": [
+            "gzip, deflate"
+        ],
+        "accept-language": [
+            "en-GB,en-US;q=0.9,en;q=0.8"
+        ],
+        "cache-control": [
+            "max-age=0"
+        ],
+        "connection": [
+            "keep-alive"
+        ],
+        "host": [
+            "192.168.0.68:45897"
+        ],
+        "upgrade-insecure-requests": [
+            "1"
+        ],
+        "user-agent": [
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36"
+        ]
+    }
+}
+
+
+{
+    "origin": "local",
+    "type": "response",
+    "correlation": "e940466979f5ecce",
+    "duration": 18,
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json;charset=UTF-8"
+        ],
+        "Date": [
+            "Sat, 08 Sep 2018 22:12:47 GMT"
+        ],
+        "Transfer-Encoding": [
+            "chunked"
+        ],
+        "X-Application-Context": [
+            "vets-service:production:0"
+        ]
+    },
+    "body": [
+        {
+            "id": 1,
+            "firstName": "James",
+            "lastName": "Carter",
+            "specialties": [],
+            "nrOfSpecialties": 0
+        },
+        {
+            "id": 2,
+            "firstName": "Helen",
+            "lastName": "Leary",
+            "specialties": [
+                {
+                    "id": 1,
+                    "name": "radiology"
+                }
+            ],
+            "nrOfSpecialties": 1
+        },
+        {
+            "id": 3,
+            "firstName": "Linda",
+            "lastName": "Douglas",
+            "specialties": [
+                {
+                    "id": 3,
+                    "name": "dentistry"
+                },
+                {
+                    "id": 2,
+                    "name": "surgery"
+                }
+            ],
+            "nrOfSpecialties": 2
+        },
+        {
+            "id": 4,
+            "firstName": "Rafael",
+            "lastName": "Ortega",
+            "specialties": [
+                {
+                    "id": 2,
+                    "name": "surgery"
+                }
+            ],
+            "nrOfSpecialties": 1
+        },
+        {
+            "id": 5,
+            "firstName": "Henry",
+            "lastName": "Stevens",
+            "specialties": [
+                {
+                    "id": 1,
+                    "name": "radiology"
+                }
+            ],
+            "nrOfSpecialties": 1
+        },
+        {
+            "id": 6,
+            "firstName": "Sharon",
+            "lastName": "Jenkins",
+            "specialties": [],
+            "nrOfSpecialties": 0
+        }
+    ]
+}
+
+{
+    "origin": "remote",
+    "type": "request",
+    "correlation": "d2eea79f8f2b494a",
+    "protocol": "HTTP/1.1",
+    "remote": "192.168.0.68",
+    "method": "GET",
+    "uri": "http://192.168.0.68:39755/vets",
+    "headers": {
+        "accept": [
+            "application/json, text/plain, */*"
+        ],
+        "accept-encoding": [
+            "gzip"
+        ],
+        "accept-language": [
+            "en-GB,en-US;q=0.9,en;q=0.8"
+        ],
+        "cache-control": [
+            "no-cache"
+        ],
+        "connection": [
+            "Keep-Alive"
+        ],
+        "content-length": [
+            "0"
+        ],
+        "host": [
+            "192.168.0.68:39755"
+        ],
+        "referer": [
+            "http://localhost:8080/"
+        ],
+        "user-agent": [
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36"
+        ],
+        "x-b3-parentspanid": [
+            "7539be4bfd9e4ae9"
+        ],
+        "x-b3-sampled": [
+            "1"
+        ],
+        "x-b3-spanid": [
+            "a56a1c5947d788a7"
+        ],
+        "x-b3-traceid": [
+            "7539be4bfd9e4ae9"
+        ],
+        "x-forwarded-for": [
+            "0:0:0:0:0:0:0:1"
+        ],
+        "x-forwarded-host": [
+            "localhost:8080"
+        ],
+        "x-forwarded-port": [
+            "8080"
+        ],
+        "x-forwarded-prefix": [
+            "/api/vet"
+        ],
+        "x-forwarded-proto": [
+            "http"
+        ],
+        "x-process-id": [
+            ""
+        ],
+        "x-span-name": [
+            "http:/api/vet/vets"
+        ]
+    }
+}
+
+{
+    "origin": "local",
+    "type": "response",
+    "correlation": "d2eea79f8f2b494a",
+    "duration": 18,
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json;charset=UTF-8"
+        ],
+        "Date": [
+            "Sat, 08 Sep 2018 22:17:14 GMT"
+        ],
+        "Transfer-Encoding": [
+            "chunked"
+        ],
+        "X-Application-Context": [
+            "vets-service:production:0"
+        ]
+    },
+    "body": [
+        {
+            "id": 1,
+            "firstName": "James",
+            "lastName": "Carter",
+            "specialties": [],
+            "nrOfSpecialties": 0
+        },
+        {
+            "id": 2,
+            "firstName": "Helen",
+            "lastName": "Leary",
+            "specialties": [
+                {
+                    "id": 1,
+                    "name": "radiology"
+                }
+            ],
+            "nrOfSpecialties": 1
+        },
+        {
+            "id": 3,
+            "firstName": "Linda",
+            "lastName": "Douglas",
+            "specialties": [
+                {
+                    "id": 3,
+                    "name": "dentistry"
+                },
+                {
+                    "id": 2,
+                    "name": "surgery"
+                }
+            ],
+            "nrOfSpecialties": 2
+        },
+        {
+            "id": 4,
+            "firstName": "Rafael",
+            "lastName": "Ortega",
+            "specialties": [
+                {
+                    "id": 2,
+                    "name": "surgery"
+                }
+            ],
+            "nrOfSpecialties": 1
+        },
+        {
+            "id": 5,
+            "firstName": "Henry",
+            "lastName": "Stevens",
+            "specialties": [
+                {
+                    "id": 1,
+                    "name": "radiology"
+                }
+            ],
+            "nrOfSpecialties": 1
+        },
+        {
+            "id": 6,
+            "firstName": "Sharon",
+            "lastName": "Jenkins",
+            "specialties": [],
+            "nrOfSpecialties": 0
+        }
+    ]
+}
+
+{
+    "origin": "remote",
+    "type": "request",
+    "correlation": "815e572653620333",
+    "protocol": "HTTP/1.1",
+    "remote": "0:0:0:0:0:0:0:1",
+    "method": "GET",
+    "uri": "http://localhost:8080/api/vet/vets",
+    "headers": {
+        "accept": [
+            "application/json, text/plain, */*"
+        ],
+        "accept-encoding": [
+            "gzip, deflate, br"
+        ],
+        "accept-language": [
+            "en-GB,en-US;q=0.9,en;q=0.8"
+        ],
+        "cache-control": [
+            "no-cache"
+        ],
+        "connection": [
+            "keep-alive"
+        ],
+        "cookie": [
+            "splunkweb_csrf_token_8000=5243296514375707866; last-serviceName=all"
+        ],
+        "host": [
+            "localhost:8080"
+        ],
+        "referer": [
+            "http://localhost:8080/"
+        ],
+        "user-agent": [
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36"
+        ]
+    }
+}
+
+{
+    "origin": "local",
+    "type": "response",
+    "correlation": "815e572653620333",
+    "duration": 57,
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "headers": {
+        "Content-Encoding": [
+            "gzip"
+        ],
+        "Content-Type": [
+            "application/json;charset=UTF-8"
+        ],
+        "Date": [
+            "Sat, 08 Sep 2018 22:35:33 GMT"
+        ],
+        "Transfer-Encoding": [
+            "chunked"
+        ],
+        "Vary": [
+            "Accept-Encoding"
+        ],
+        "X-Application-Context": [
+            "api-gateway:8080"
+        ]
+    },
+    "body": [
+        {
+            "id": 1,
+            "firstName": "James",
+            "lastName": "Carter",
+            "specialties": [],
+            "nrOfSpecialties": 0
+        },
+        {
+            "id": 2,
+            "firstName": "Helen",
+            "lastName": "Leary",
+            "specialties": [
+                {
+                    "id": 1,
+                    "name": "radiology"
+                }
+            ],
+            "nrOfSpecialties": 1
+        },
+        {
+            "id": 3,
+            "firstName": "Linda",
+            "lastName": "Douglas",
+            "specialties": [
+                {
+                    "id": 3,
+                    "name": "dentistry"
+                },
+                {
+                    "id": 2,
+                    "name": "surgery"
+                }
+            ],
+            "nrOfSpecialties": 2
+        },
+        {
+            "id": 4,
+            "firstName": "Rafael",
+            "lastName": "Ortega",
+            "specialties": [
+                {
+                    "id": 2,
+                    "name": "surgery"
+                }
+            ],
+            "nrOfSpecialties": 1
+        },
+        {
+            "id": 5,
+            "firstName": "Henry",
+            "lastName": "Stevens",
+            "specialties": [
+                {
+                    "id": 1,
+                    "name": "radiology"
+                }
+            ],
+            "nrOfSpecialties": 1
+        },
+        {
+            "id": 6,
+            "firstName": "Sharon",
+            "lastName": "Jenkins",
+            "specialties": [],
+            "nrOfSpecialties": 0
+        }
+    ]
+}
+
+{
+    "origin": "remote",
+    "type": "request",
+    "correlation": "b37668f2f2fa833e",
+    "protocol": "HTTP/1.1",
+    "remote": "192.168.0.68",
+    "method": "GET",
+    "uri": "http://192.168.0.68:39755/vets",
+    "headers": {
+        "accept": [
+            "application/json, text/plain, */*"
+        ],
+        "accept-encoding": [
+            "gzip"
+        ],
+        "accept-language": [
+            "en-GB,en-US;q=0.9,en;q=0.8"
+        ],
+        "cache-control": [
+            "no-cache"
+        ],
+        "connection": [
+            "Keep-Alive"
+        ],
+        "content-length": [
+            "0"
+        ],
+        "host": [
+            "192.168.0.68:39755"
+        ],
+        "referer": [
+            "http://localhost:8080/"
+        ],
+        "user-agent": [
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36"
+        ],
+        "x-b3-parentspanid": [
+            "14891a7d557fbe6a"
+        ],
+        "x-b3-sampled": [
+            "1"
+        ],
+        "x-b3-spanid": [
+            "61a62b806ea321a7"
+        ],
+        "x-b3-traceid": [
+            "14891a7d557fbe6a"
+        ],
+        "x-forwarded-for": [
+            "0:0:0:0:0:0:0:1"
+        ],
+        "x-forwarded-host": [
+            "localhost:8080"
+        ],
+        "x-forwarded-port": [
+            "8080"
+        ],
+        "x-forwarded-prefix": [
+            "/api/vet"
+        ],
+        "x-forwarded-proto": [
+            "http"
+        ],
+        "x-process-id": [
+            ""
+        ],
+        "x-span-name": [
+            "http:/api/vet/vets"
+        ]
+    }
+}
+
+{
+    "origin": "local",
+    "type": "response",
+    "correlation": "b37668f2f2fa833e",
+    "duration": 22,
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json;charset=UTF-8"
+        ],
+        "Date": [
+            "Sat, 08 Sep 2018 22:35:33 GMT"
+        ],
+        "Transfer-Encoding": [
+            "chunked"
+        ],
+        "X-Application-Context": [
+            "vets-service:production:0"
+        ]
+    },
+    "body": [
+        {
+            "id": 1,
+            "firstName": "James",
+            "lastName": "Carter",
+            "specialties": [],
+            "nrOfSpecialties": 0
+        },
+        {
+            "id": 2,
+            "firstName": "Helen",
+            "lastName": "Leary",
+            "specialties": [
+                {
+                    "id": 1,
+                    "name": "radiology"
+                }
+            ],
+            "nrOfSpecialties": 1
+        },
+        {
+            "id": 3,
+            "firstName": "Linda",
+            "lastName": "Douglas",
+            "specialties": [
+                {
+                    "id": 3,
+                    "name": "dentistry"
+                },
+                {
+                    "id": 2,
+                    "name": "surgery"
+                }
+            ],
+            "nrOfSpecialties": 2
+        },
+        {
+            "id": 4,
+            "firstName": "Rafael",
+            "lastName": "Ortega",
+            "specialties": [
+                {
+                    "id": 2,
+                    "name": "surgery"
+                }
+            ],
+            "nrOfSpecialties": 1
+        },
+        {
+            "id": 5,
+            "firstName": "Henry",
+            "lastName": "Stevens",
+            "specialties": [
+                {
+                    "id": 1,
+                    "name": "radiology"
+                }
+            ],
+            "nrOfSpecialties": 1
+        },
+        {
+            "id": 6,
+            "firstName": "Sharon",
+            "lastName": "Jenkins",
+            "specialties": [],
+            "nrOfSpecialties": 0
+        }
+    ]
+}

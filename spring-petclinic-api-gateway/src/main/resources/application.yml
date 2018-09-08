@@ -1,3 +1,6 @@
+logbook.write.level: INFO
+logbook.format.style: json
+logging.level.org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
 zuul:
   prefix: /api
   ignoredServices: '*'
